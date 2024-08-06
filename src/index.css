@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .align-element {
+    @apply  max-w-6xl mt-10 mb-10  ;
+  }
+}
+:root {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  line-height: 1.5;
+
+  
+  background-color: hsl(202, 86%, 94%);
+
+  
+}
